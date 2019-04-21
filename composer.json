@@ -1,0 +1,7 @@
+{
+    "name": "issa/site1",
+    "type": "project",
+    "require": {
+        "sebastian/version": "^2.0"
+    }
+}
