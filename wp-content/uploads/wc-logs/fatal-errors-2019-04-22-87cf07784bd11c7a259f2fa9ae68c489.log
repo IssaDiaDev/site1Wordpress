@@ -1,2 +1,6 @@
 2019-04-22T09:00:09+00:00 CRITICAL syntax error, unexpected '<' dans /opt/lampp/htdocs/wordpress/site1/wp-content/themes/hestia/front-page.php à la ligne 23
 
+2019-04-22T09:12:56+00:00 CRITICAL syntax error, unexpected '?>' dans /opt/lampp/htdocs/wordpress/site1/wp-content/themes/hestiaChild/header.php à la ligne 16
+
+2019-04-22T09:13:04+00:00 CRITICAL syntax error, unexpected '?>' dans /opt/lampp/htdocs/wordpress/site1/wp-content/themes/hestiaChild/header.php à la ligne 16
+
