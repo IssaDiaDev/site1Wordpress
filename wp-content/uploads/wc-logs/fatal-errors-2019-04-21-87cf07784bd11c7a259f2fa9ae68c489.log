@@ -114,3 +114,5 @@ Stack trace:
 #7 {main}
   thrown dans /opt/lampp/htdocs/wordpress/site1/wp-content/themes/hestiaChild/header.php à la ligne 17
 
+2019-04-21T23:58:24+00:00 CRITICAL require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/lampp/lib/php') dans /opt/lampp/htdocs/wordpress/site1/wp-content/themes/hestiaChild/functions.php à la ligne 2
+

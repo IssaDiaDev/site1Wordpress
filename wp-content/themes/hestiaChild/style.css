@@ -10,11 +10,22 @@ body {
   margin: 0;
 }
 
+.logo_accueil img {
+	padding-top: 35px;
+
+}
+
 .navbar a{
 
   float: left;
 }
 
 #navbarNav {
+  float: right;
+}
+
+.contact{
+
+  display: inline-block;
   float: right;
 }

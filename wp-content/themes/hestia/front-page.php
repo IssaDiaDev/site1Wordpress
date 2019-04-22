@@ -19,7 +19,7 @@ if ( ! is_page_template() && ! get_theme_mod( 'disable_frontpage_sections', fals
 		 *
 		 * @hooked hestia_slider_section
 		 */
-		do_action( 'hestia_header' ); ?>
+	 ?>
 	<div class="<?php echo esc_attr( hestia_layout() ); ?>">
 		<?php
 		/**

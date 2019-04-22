@@ -1,5 +1,4 @@
 <?php
-require 'vendor/autoload.php';
 /**
 ** activation theme
 **/
@@ -19,3 +18,5 @@ function wpb_add_google_fonts() {
 wp_enqueue_style( 'wpb-google-fonts',
 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,700,300', false );
 }
+
+show_admin_bar(false);
