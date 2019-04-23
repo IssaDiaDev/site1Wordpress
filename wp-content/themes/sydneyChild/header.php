@@ -1,4 +1,12 @@
-<!DOCTYPE html>
+<?php
+/**
+ * The header for our theme.
+ *
+ * Displays all of the <head> section and everything up till <div id="content">
+ *
+ * @package Sydney
+ */
+?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -27,7 +35,7 @@
 		<div class="header-wrap">
             <div class="container">
                 <div class="row">
-				<div class="col-md-4 col-sm-8 col-xs-12">
+				<div class="col-md-3 col-sm-8 col-xs-12">
 		        <?php if ( get_theme_mod('site_logo') ) : ?>
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php bloginfo('name'); ?>"><img class="site-logo" src="<?php echo esc_url(get_theme_mod('site_logo')); ?>" alt="<?php bloginfo('name'); ?>" /></a>
 		        <?php else : ?>
@@ -35,11 +43,25 @@
 					<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 		        <?php endif; ?>
 				</div>
-				<div class="col-md-8 col-sm-4 col-xs-12">
+				<div class="col-md-6 col-sm-4 col-xs-12">
 					<div class="btn-menu"></div>
 					<nav id="mainnav" class="mainnav" role="navigation">
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'fallback_cb' => 'sydney_menu_fallback' ) ); ?>
 					</nav><!-- #site-navigation -->
+				</div>
+
+				<div class="col-md-3 col-sm-8 col-xs-12">
+					<div class="vertical_line"style="border:1px solid #000;height:30px"></div>
+					<ul class="contact">
+						<li>
+							<span><img border="0" src="<?php echo get_stylesheet_directory_uri(); ?>
+							/assets/images/telephone.svg" alt="logo_telephone" width="20px" height="20px">+33(0)4 72 02 52 95</span>
+						</li>
+						<li>
+							<span><img border="0" src="<?php echo get_stylesheet_directory_uri(); ?>
+							/assets/images/mail.svg" alt="logo_telephone" width="20px" height="20px">contact@lignesdirectes.fr</span>
+						</li>
+					</ul>
 				</div>
 				</div>
 			</div>
@@ -63,4 +85,4 @@
 
 	<div id="content" class="page-wrap">
 		<div class="container content-wrapper">
-			<div class="row">	
+			<div class="row">

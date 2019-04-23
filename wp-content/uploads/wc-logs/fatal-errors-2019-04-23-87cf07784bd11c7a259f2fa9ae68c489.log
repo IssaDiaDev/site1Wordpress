@@ -1,0 +1,6 @@
+2019-04-23T07:52:52+00:00 CRITICAL syntax error, unexpected ')' dans /opt/lampp/htdocs/wordpress/site1/wp-content/themes/sydneyChild/functions.php à la ligne 13
+
+2019-04-23T08:03:22+00:00 CRITICAL syntax error, unexpected '&' dans /opt/lampp/htdocs/wordpress/site1/wp-content/themes/sydneyChild/functions.php à la ligne 14
+
+2019-04-23T08:04:02+00:00 CRITICAL syntax error, unexpected '&' dans /opt/lampp/htdocs/wordpress/site1/wp-content/themes/sydneyChild/functions.php à la ligne 31
+
