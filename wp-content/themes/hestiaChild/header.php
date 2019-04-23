@@ -2,12 +2,14 @@
 <html lang="fr" dir="ltr">
 
 <head>
-	<meta charset="utf-8">
-	<title>Lignes Directes</title>
+	<meta charset="<?php bloginfo( 'charset' ); ?>" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="profile" href="https://gmpg.org/xfn/11" />
 	<?php wp_head(); ?>
+	<title>Lignes Directes</title>
 </head>
 
-<body>
+<body <?php body_class(); ?>>
 	<div class="container">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 
@@ -39,8 +41,8 @@
 				</ul>
 			</div>
 
-			<div class="collapse navbar-collapse contact mr-auto" id="navbarNav">
-				<ul class="navbar-nav mr-auto">
+			<div class="collapse navbar-collapse contact mr-auto">
+				<ul class="navbar-nav">
 					<li>
 						<span><img border="0" src="<?php echo get_stylesheet_directory_uri(); ?>
 						/assets/images/telephone.svg" alt="logo_telephone" width="20px" height="20px">+33(0)4 72 02 52 95</span>
@@ -52,6 +54,7 @@
 				</ul>
 			</div>
 		</nav>
+
 		<div id="demo" class="carousel slide" data-ride="carousel">
 
   <!-- Indicators -->
