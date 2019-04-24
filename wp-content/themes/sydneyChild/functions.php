@@ -18,3 +18,11 @@ function theme_enqueue_styles() {
 };
 
 show_admin_bar(false);
+
+function show_template() {
+    if( is_super_admin() ){
+        global $template;
+        print_r($template);
+    }
+}
+add_action('wp_footer', 'show_template');
