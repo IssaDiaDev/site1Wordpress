@@ -4444,3 +4444,16 @@ div[class*="elementor-widget-wp-widget-sydney"] h5 {
   color:#FFFFFF
 
 }
+
+.block_1{
+
+  height: 300px;
+  width:100%;
+}
+
+.block_2{
+
+  height: 300px;
+  width:100%;
+  background-color: #1D1D1D;
+}
