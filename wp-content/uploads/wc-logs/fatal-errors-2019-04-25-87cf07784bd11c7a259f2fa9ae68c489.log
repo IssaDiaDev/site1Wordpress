@@ -1,0 +1,10 @@
+2019-04-25T10:28:22+00:00 CRITICAL syntax error, unexpected 's' (T_STRING), expecting ',' or ';' dans /opt/lampp/htdocs/wordpress/site1/wp-content/themes/sydneyChild/template-parts/Accueil.php à la ligne 111
+
+2019-04-25T10:43:59+00:00 CRITICAL syntax error, unexpected 'thumbnail' (T_STRING), expecting ',' or ';' dans /opt/lampp/htdocs/wordpress/site1/wp-content/themes/sydneyChild/template-parts/Accueil.php à la ligne 111
+
+2019-04-25T10:44:29+00:00 CRITICAL syntax error, unexpected '?' dans /opt/lampp/htdocs/wordpress/site1/wp-content/themes/sydneyChild/template-parts/Accueil.php à la ligne 111
+
+2019-04-25T10:45:02+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' dans /opt/lampp/htdocs/wordpress/site1/wp-content/themes/sydneyChild/template-parts/Accueil.php à la ligne 111
+
+2019-04-25T11:04:39+00:00 CRITICAL syntax error, unexpected ''orderby'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' dans /opt/lampp/htdocs/wordpress/site1/wp-content/themes/sydneyChild/template-parts/Accueil.php à la ligne 107
+

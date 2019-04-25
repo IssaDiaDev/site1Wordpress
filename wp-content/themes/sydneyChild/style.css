@@ -4457,3 +4457,57 @@ div[class*="elementor-widget-wp-widget-sydney"] h5 {
   width:100%;
   background-color: #1D1D1D;
 }
+
+.block_3{
+
+  height: 300px;
+  width:100%;
+}
+
+.block_4{
+
+  height: 200px;
+  width:100%;
+  background-image: url(../sydneyChild/assets/images/motif_fond_bandeau.jpg);
+}
+
+.block_5{
+
+  height: 600px;
+  width:100%;
+}
+
+.block_6{
+
+  height: 600px;
+  width:100%;
+}
+
+.image_1{
+
+  background-image: url(../sydneyChild/assets/images/tee_shirt.jpg);
+  background-position:center;
+  width:700px;
+  height:200px;
+}
+.image_2{
+
+  background-image: url(../sydneyChild/assets/images/tee_shirt.jpg);
+  background-position:center;
+  width:700px;
+  height:200px;
+}
+.image_3{
+
+  background-image: url(../sydneyChild/assets/images/tee_shirt.jpg);
+  background-position:center;
+  width:700px;
+  height:200px;
+}
+.image_4{
+
+  background-image: url(../sydneyChild/assets/images/tee_shirt.jpg);
+  background-position:center;
+  width:700px;
+  height:200px;
+}
