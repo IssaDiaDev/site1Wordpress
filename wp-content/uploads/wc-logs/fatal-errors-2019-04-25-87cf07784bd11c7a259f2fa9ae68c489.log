@@ -8,3 +8,7 @@
 
 2019-04-25T11:04:39+00:00 CRITICAL syntax error, unexpected ''orderby'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' dans /opt/lampp/htdocs/wordpress/site1/wp-content/themes/sydneyChild/template-parts/Accueil.php à la ligne 107
 
+2019-04-25T11:37:36+00:00 CRITICAL syntax error, unexpected '<' dans /opt/lampp/htdocs/wordpress/site1/wp-content/themes/sydneyChild/template-parts/Accueil.php à la ligne 119
+
+2019-04-25T11:38:11+00:00 CRITICAL syntax error, unexpected '<' dans /opt/lampp/htdocs/wordpress/site1/wp-content/themes/sydneyChild/template-parts/Accueil.php à la ligne 118
+

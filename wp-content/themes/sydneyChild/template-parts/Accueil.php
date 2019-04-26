@@ -102,33 +102,12 @@
         maximus bibendum nec quis metus.<br> Mauris tincidunt ipsum eu risus malesuada, sed varius
         felis efficitur. Proin euismod elit lorem, et efficitur ipsum finibus ut. Vivamus congue
       </p>
-      <?php
-	$args = array( 'numberposts' => '4',
-                 'orderby' => 'post_date',
-  	             'order' => 'DESC' );
-	$recent_posts = wp_get_recent_posts( $args );
-	foreach( $recent_posts as $recent ){ ?>
+      <?php get_sidebar('Communication'); ?>
 
-
-		<div class="col-md-3">
-    <div class="card" style="width: 18rem;">
-  <?php echo get_the_post_thumbnail( $page->ID, 'thumbnail' ); ?>'
-  <div class="card-body">
-    <h5 class="card-title"><?php echo $recent->post_title; ?></h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-</div>;
-<?php	}
-	wp_reset_query();
-?>
 
 </div>
 
 </div>
-
-
 
 
 
