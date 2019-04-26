@@ -60,12 +60,10 @@
 						<div class="col-md-2 col-sm-8 col-xs-12">
 							<ul class="contact">
 								<li>
-									<span><img border="0" src="<?php echo get_stylesheet_directory_uri(); ?>
-							/assets/images/telephone.svg" alt="logo_telephone" width="20px" height="20px">+33(0)4 72 02 52 95</span>
+									<span><img border="0" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/telephone.svg" alt="logo_telephone" width="20px" height="20px">+33(0)4 72 02 52 95</span>
 								</li>
 								<li>
-									<span><img border="0" src="<?php echo get_stylesheet_directory_uri(); ?>
-							/assets/images/mail.svg" alt="logo_mail" width="20px" height="20px">contact@lignesdirectes.fr</span>
+									<span><img border="0" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/mail.svg" alt="logo_mail" width="20px" height="20px">contact@lignesdirectes.fr</span>
 								</li>
 							</ul>
 						</div>

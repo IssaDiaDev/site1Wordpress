@@ -4428,86 +4428,87 @@ div[class*="elementor-widget-wp-widget-sydney"] h5 {
   padding-top: 50px;
 }
 
-.infos{
+.infos {
   background-color: #1D1D1D;
-  color:#FFFFFF
+  color: #FFFFFF
 }
 
-.linkedin{
+.linkedin {
   background-color: #1D1D1D;
-  color:#FFFFFF
-
+  color: #FFFFFF
 }
 
-.newsletter{
+.newsletter {
   background-color: #000000;
-  color:#FFFFFF
-
+  color: #FFFFFF
 }
 
-.block_1{
-
+.block_1 {
   height: 300px;
-  width:100%;
+  width: 100%;
 }
 
-.block_2{
-
+.block_2 {
   height: 300px;
-  width:100%;
+  width: 100%;
   background-color: #1D1D1D;
 }
 
-.block_3{
-
+.block_3 {
   height: 300px;
-  width:100%;
+  width: 100%;
 }
 
-.block_4{
-
+.block_4 {
   height: 200px;
-  width:100%;
+  width: 100%;
   background-image: url(../sydneyChild/assets/images/motif_fond_bandeau.jpg);
 }
 
-.block_5{
-
+.block_5 {
   height: 600px;
-  width:100%;
+  width: 100%;
 }
 
-.block_6{
-
+.block_6 {
   height: 600px;
-  width:100%;
+  width: 100%;
 }
 
-.image_1{
-
-  background-image: url(../sydneyChild/assets/images/tee_shirt.jpg);
-  background-position:center;
-  width:700px;
-  height:200px;
+.block_7 {
+  height: 600px;
+  width: 100%;
 }
-.image_2{
 
-  background-image: url(../sydneyChild/assets/images/tee_shirt.jpg);
-  background-position:center;
-  width:700px;
-  height:200px;
+.block_8 {
+  height: 600px;
+  width: 100%;
 }
-.image_3{
 
+.image_1 {
   background-image: url(../sydneyChild/assets/images/tee_shirt.jpg);
-  background-position:center;
-  width:700px;
-  height:200px;
+  background-position: center;
+  width: 700px;
+  height: 200px;
 }
-.image_4{
 
+.image_2 {
   background-image: url(../sydneyChild/assets/images/tee_shirt.jpg);
-  background-position:center;
-  width:700px;
-  height:200px;
+  background-position: center;
+  width: 700px;
+  height: 200px;
+}
+
+.image_3 {
+  background-image: url(../sydneyChild/assets/images/tee_shirt.jpg);
+  background-position: center;
+  width: 700px;
+  height: 200px;
+}
+
+.image_4 {
+  background-image: url(../sydneyChild/assets/images/tee_shirt.jpg);
+  background-position: center;
+  width: 700px;
+  height: 200px;
 }
