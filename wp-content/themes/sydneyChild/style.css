@@ -4399,20 +4399,21 @@ div[class*="elementor-widget-wp-widget-sydney"] h5 {
   margin-right: -182px;
 }
 
+.container-fluid {
+  padding: 0px;
+}
+
 .contact li span {
   color: #FEFEFE;
 }
 
 .contact li {
   list-style-type: none;
+  padding-bottom: 5px;
 }
 
 .contact {
-  float: right;
-}
-
-.contact ul {
-  display: block;
+  padding-left: 0px;
 }
 
 .contain h2 {
@@ -4444,19 +4445,91 @@ div[class*="elementor-widget-wp-widget-sydney"] h5 {
 }
 
 .block_1 {
-  height: 300px;
+  height: 400px;
   width: 100%;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.block_1 h1 {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.block_1 p {
+  font-size: 14px;
+  text-align: justify;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+
+.techniques button {
+  text-align: center;
+  padding: 18px 28px;
+  font-size: 12px;
+  line-height: normal;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+
+.shirts img{
+
+  padding-top: 20px;
 }
 
 .block_2 {
-  height: 300px;
+  height: 200px;
   width: 100%;
   background-color: #1D1D1D;
 }
 
+.block_2 h2{
+
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #FFFFFF;
+  font-size: 2.5rem;
+}
+
+
+
+.block_2{
+
+  color: #1EBAC9;
+}
+
 .block_3 {
-  height: 300px;
+  height: 600px;
   width: 100%;
+  color: #FFFFFF;
+}
+
+.block_3 h3 {
+  color: #FFFFFF;
+  padding-left: 20px;
+  padding-bottom: 80px;
+  font-weight: bold;
+}
+
+.chiffre{
+
+  padding-top: 60px;
+  padding-left: 20px;
+}
+
+.block_3_text{
+
+  padding-bottom: 80px;
+  padding-left: 20px;
+}
+
+.block_3 img{
+
+  transform: rotate(180deg);
+  padding-right: 20px;
 }
 
 .block_4 {
@@ -4486,29 +4559,42 @@ div[class*="elementor-widget-wp-widget-sydney"] h5 {
 }
 
 .image_1 {
-  background-image: url(../sydneyChild/assets/images/tee_shirt.jpg);
+  background-image: url(../sydneyChild/assets/images/01_textile_et_objet.jpg);
   background-position: center;
-  width: 700px;
-  height: 200px;
+  width: 100%;
+  height: 450px;
+  margin-right: 10px;
+  position: fixed;
+
 }
 
 .image_2 {
-  background-image: url(../sydneyChild/assets/images/tee_shirt.jpg);
+  background-image: url(../sydneyChild/assets/images/02_objet-medias.jpg);
   background-position: center;
-  width: 700px;
-  height: 200px;
+  width: 100%;
+  height: 450px;
+  margin-right: 10px;
 }
 
 .image_3 {
-  background-image: url(../sydneyChild/assets/images/tee_shirt.jpg);
+  background-image: url(../sydneyChild/assets/images/03_vetements_de_travail.jpg);
   background-position: center;
-  width: 700px;
-  height: 200px;
+  width: 100%;
+  height: 450px;
+  margin-right: 10px;
 }
 
 .image_4 {
-  background-image: url(../sydneyChild/assets/images/tee_shirt.jpg);
+  background-image: url(../sydneyChild/assets/images/04_tenue_dimage.jpg);
   background-position: center;
-  width: 700px;
-  height: 200px;
+  width: 100%;
+  height: 450px;
+  margin-right: 10px;
+}
+
+.filter{
+
+  z-index:1;
+    position:absolute;
+  -webkit-filter: brightness(50%);
 }

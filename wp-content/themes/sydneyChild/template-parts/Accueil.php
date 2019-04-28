@@ -2,6 +2,9 @@
 
 <?php get_header(); ?>
 
+<div class="container-fluid">
+
+
 <div id="primary" class="fp-content-area">
   <main id="main" class="site-main" role="main">
 
@@ -9,11 +12,11 @@
 
       <div class="col-md-8 techniques">
         <h1>NOS TECHNIQUES DE PERSONNALISATIONS</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit vitae felis
-          maximus bibendum nec quis metus.<br> Mauris tincidunt ipsum eu risus malesuada, sed varius
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit vitae felis <br>
+          maximus bibendum nec quis metus. Mauris tincidunt ipsum eu risus malesuada, sed varius <br>
           felis efficitur. Proin euismod elit lorem, et efficitur ipsum finibus ut. Vivamus congue
         </p>
-        <button type="button" class="btn btn-dark">EN SAVOIR PLUS</button>
+        <button type="button" class="btn-lg btn-dark">EN SAVOIR PLUS</button>
       </div>
 
       <div class="col-md-4 shirts">
@@ -29,42 +32,50 @@
     </div>
 
     <div class="row block_3">
+      <div class="filter">
+
+      </div>
       <div class="col-md-3 image_1">
-        <p>01</p>
+
+        <p class="chiffre">01</p>
         <h3>Textile et objets évenementiels</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit vitae felis
+        <p class="block_3_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit vitae felis
           maximus bibendum nec quis metus.<br> Mauris tincidunt ipsum eu risus malesuada, sed varius
-          felis efficitur. Proin euismod elit lorem, et efficitur ipsum finibus ut. Vivamus congue
+          felis efficitur. Proin euismod elit lorem, et efficitur ipsum finibus ut.Vivamus congue
         </p>
-        <i class="fas fa-arrow-circle-right"></i>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fleches_slider.svg" alt="arrow_circle">
       </div>
-      <div class="col-md-3 image_2">
-        <p>02</p>
+      <div class="col-md-3 image_2 filter">
+        <p class="chiffre">02</p>
         <h3>Objets médias</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit vitae felis
+        <p class="block_3_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit vitae felis
           maximus bibendum nec quis metus.<br> Mauris tincidunt ipsum eu risus malesuada, sed varius
-          felis efficitur. Proin euismod elit lorem, et efficitur ipsum finibus ut. Vivamus congue
+          felis efficitur. Proin euismod elit lorem, et efficitur ipsum finibus ut.Vivamus congue
         </p>
-        <i class="fas fa-arrow-circle-right"></i>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fleches_slider.svg" alt="arrow_circle">
+
       </div>
-      <div class="col-md-3 image_3">
-        <p>03</p>
+      <div class="col-md-3 image_3 filter">
+        <p class="chiffre">02</p>
         <h3>Vêtements de travail</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit vitae felis
+        <p class="block_3_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit vitae felis
           maximus bibendum nec quis metus.<br> Mauris tincidunt ipsum eu risus malesuada, sed varius
-          felis efficitur. Proin euismod elit lorem, et efficitur ipsum finibus ut. Vivamus congue
+          felis efficitur. Proin euismod elit lorem, et efficitur ipsum finibus ut.Vivamus congue
         </p>
-        <i class="fas fa-arrow-circle-right"></i>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fleches_slider.svg" alt="arrow_circle">
+
       </div>
-      <div class="col-md-3 image_4">
-        <p>04</p>
+      <div class="col-md-3 image_4 filter">
+        <p class="chiffre">04</p>
         <h3>Tenue d'image</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit vitae felis
+        <p class="block_3_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit vitae felis
           maximus bibendum nec quis metus.<br> Mauris tincidunt ipsum eu risus malesuada, sed varius
-          felis efficitur. Proin euismod elit lorem, et efficitur ipsum finibus ut. Vivamus congue
+          felis efficitur. Proin euismod elit lorem, et efficitur ipsum finibus ut.Vivamus congue
         </p>
-        <i class="fas fa-arrow-circle-right"></i>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fleches_slider.svg" alt="arrow_circle">
+
       </div>
+
 
     </div>
 

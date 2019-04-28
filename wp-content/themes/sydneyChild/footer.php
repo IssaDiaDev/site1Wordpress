@@ -1,4 +1,4 @@
-</div><!-- #content -->
+
 
 <footer>
 
@@ -11,7 +11,7 @@
     </div>
     <div class="col-md-3 linkedin">
       <p>NOUS SUIVRE</p>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/linkedin.svg" alt="linkedin_logo" width="30px" height="30px"">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/linkedin.svg" alt="linkedin_logo" width="30px" height="30px">
     </div>
     <div class="col-md-6 newsletter">
       <p>INSCRIPTION À NOTRE NEWSLETTER</p>
@@ -24,6 +24,8 @@
 
 
 <?php wp_footer(); ?>
+
+</div><!-- #content -->
 
 
 </body>
