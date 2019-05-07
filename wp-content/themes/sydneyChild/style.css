@@ -4414,6 +4414,7 @@ div[class*="elementor-widget-wp-widget-sydney"] h5 {
 
 .contact {
   padding-left: 0px;
+  padding-top: 20px;
 }
 
 .contain h2 {
@@ -4431,22 +4432,24 @@ div[class*="elementor-widget-wp-widget-sydney"] h5 {
 
 .infos {
   background-color: #1D1D1D;
-  color: #FFFFFF
+  color: #FFFFFF;
+  padding-top: 30px;
 }
 
 .linkedin {
   background-color: #1D1D1D;
-  color: #FFFFFF
+  color: #FFFFFF;
+  padding-top: 30px;
 }
 
 .newsletter {
   background-color: #000000;
-  color: #FFFFFF
+  color: #FFFFFF;
+  padding-top: 30px;
 }
 
 .block_1 {
   height: 400px;
-  width: 100%;
   background-color: #FFFFFF;
   text-align: center;
 }
@@ -4464,7 +4467,6 @@ div[class*="elementor-widget-wp-widget-sydney"] h5 {
   padding-bottom: 30px;
 }
 
-
 .techniques button {
   text-align: center;
   padding: 18px 28px;
@@ -4475,126 +4477,359 @@ div[class*="elementor-widget-wp-widget-sydney"] h5 {
   border-radius: 0px;
 }
 
-.shirts img{
-
+.shirts img {
   padding-top: 20px;
+  width: 100%;
+  height: 300px;
 }
 
 .block_2 {
   height: 200px;
-  width: 100%;
   background-color: #1D1D1D;
+  color: #1EBAC9;
 }
 
-.block_2 h2{
-
+.block_2 h2 {
   padding-top: 60px;
   padding-bottom: 30px;
   color: #FFFFFF;
   font-size: 2.5rem;
 }
 
-
-
-.block_2{
-
-  color: #1EBAC9;
-}
-
 .block_3 {
-  height: 600px;
-  width: 100%;
   color: #FFFFFF;
+  margin-bottom: 20px;
 }
 
 .block_3 h3 {
   color: #FFFFFF;
   padding-left: 20px;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
   font-weight: bold;
 }
 
-.chiffre{
-
+.chiffre {
   padding-top: 60px;
   padding-left: 20px;
 }
 
-.block_3_text{
-
-  padding-bottom: 80px;
+.block_3_text {
+  padding-bottom: 50px;
   padding-left: 20px;
 }
 
-.block_3 img{
-
+.block_3 img {
   transform: rotate(180deg);
   padding-right: 20px;
 }
 
 .block_4 {
-  height: 200px;
-  width: 100%;
+  height: 300px;
   background-image: url(../sydneyChild/assets/images/motif_fond_bandeau.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.block_4 h1 {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  font-size: 20px;
+  color: #000000;
+  font-weight: bolder;
+  word-spacing: 5px;
+}
+
+.block_4 button {
+  text-align: center;
+  padding: 18px 28px;
+  font-size: 12px;
+  line-height: normal;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  margin-right: 30px;
+  background-color: #1EBAC9;
+
 }
 
 .block_5 {
-  height: 600px;
-  width: 100%;
+  height: 850px;
+  background-color: #FFFFFF;
 }
 
-.block_6 {
-  height: 600px;
-  width: 100%;
+.block_5 h1 {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.block_5 p {
+  padding-left: 180px;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.block_5 button {
+  margin-left: 180px;
+  padding: 18px 28px;
+  font-size: 12px;
+  line-height: normal;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  margin-right: 30px;
+}
+
+.engagement img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bag img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 60px;
+  box-shadow: 10px 10px 5px #D8CFC0;
+}
+
+.block_6 .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.block_6 h1 {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #FFFFFF;
+}
+
+.block_6 p {
+  color: #1EBAC7;
+  padding-bottom: 50px;
+}
+
+.block_6 .card {
+  margin: 0 auto;
+  /* Added */
+  float: none;
+  /* Added */
+  margin-bottom: 10px;
+  /* Added */
+}
+
+.moreArticle button {
+  padding: 18px 20px;
+  font-size: 12px;
+  line-height: normal;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  margin-right: 30px;
+  background-color: #FFFFFF;
+  color: #1D1D1D;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .block_7 {
-  height: 600px;
-  width: 100%;
+
+  background-color: #FFFFFF;
+}
+
+.block_7 h1 {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+.block_7 p {
+  padding-left: 180px;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.block_7 button {
+  margin-left: 180px;
+  padding: 18px 28px;
+  font-size: 12px;
+  line-height: normal;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  margin-right: 30px;
+}
+
+.showroom {
+  margin-top: 200px;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 10px 10px 5px #D8CFC0;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.machine {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo-accueil {
+  position: absolute;
+  top: 400px;
+  left: -200px;
+  width: 320px;
+  height: 200px;
 }
 
 .block_8 {
-  height: 600px;
-  width: 100%;
+  background-color: #F6F6F6;
+  padding-bottom: 40px;
+}
+
+.block_8 h1 {
+  color: #37BFCD;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.block_8 img{
+
+background-color: #F6F6F6;
+max-width: 100%;
+height: auto;
+object-fit: cover;
+
+}
+
+.block_9 {
+  height: 300px;
+  background-color: #FFFFFF;
+}
+
+.block_9 h1 {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  font-size: 20px;
+  color: #000000;
+  font-weight: bolder;
+  word-spacing: 5px;
+}
+
+.block_9 button {
+  text-align: center;
+  padding: 18px 28px;
+  font-size: 12px;
+  line-height: normal;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  margin-right: 30px;
+  background-color: #1EBAC9;
+}
+
+.block_10 {
+
+}
+
+.rencontrer {
+  background-color: #37BFCD;
+}
+
+.block_10 h1 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+}
+
+.adresse {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  color: #FFFFFF;
+}
+
+.contact_2 {
+  color: #FFFFFF;
+  display: table;
+}
+
+.contact_2 span {
+  float: left;
+}
+
+
+.map iframe {
+  max-width: 100%;
+  height: auto;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .image_1 {
   background-image: url(../sydneyChild/assets/images/01_textile_et_objet.jpg);
-  background-position: center;
-  width: 100%;
-  height: 450px;
-  margin-right: 10px;
-  position: fixed;
-
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 .image_2 {
   background-image: url(../sydneyChild/assets/images/02_objet-medias.jpg);
-  background-position: center;
-  width: 100%;
-  height: 450px;
-  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 .image_3 {
   background-image: url(../sydneyChild/assets/images/03_vetements_de_travail.jpg);
-  background-position: center;
-  width: 100%;
-  height: 450px;
-  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 .image_4 {
   background-image: url(../sydneyChild/assets/images/04_tenue_dimage.jpg);
-  background-position: center;
-  width: 100%;
-  height: 450px;
-  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
 }
 
-.filter{
+@media (max-width: 768px) {
+  .vertical_line {
+    display: none;
+  }
+}
 
-  z-index:1;
-    position:absolute;
-  -webkit-filter: brightness(50%);
+@media (max-width: 512px) {
+  .shirts {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .block_4 button {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bag img {
+    display:none;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-accueil {
+    display:none;
+  }
 }

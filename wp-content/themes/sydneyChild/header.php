@@ -26,6 +26,8 @@
 
 <body <?php body_class(); ?>>
 
+	<div class="container">
+
 	<?php do_action('sydney_before_site'); //Hooked: sydney_preloader() ?>
 
 	<div id="page" class="hfeed site">
